@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "images-to-pdf": "^1.0.3"
+  },
+  "name": "urls-to-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "keywords": [],
+  "author": "napthedev",
+  "license": "ISC",
+  "description": ""
+}
