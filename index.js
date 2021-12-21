@@ -8,7 +8,7 @@ const fs = require("fs");
 const imagesToPdf = require("images-to-pdf");
 const SHA256 = require("crypto-js/sha256");
 
-app.use(express.json());
+app.use(express.json({ limit: "100mb" }));
 app.use(cors({ origin: true }));
 app.enable("trust proxy");
 
